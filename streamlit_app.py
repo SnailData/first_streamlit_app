@@ -43,7 +43,7 @@ try:
 except URLError as e:
     streamlit.error()
 
-streamlit.stop()
+#streamlit.stop()
 #snowflake related fuctions
 def get_fruit_load_list():
       with my_cur.cursor() as my_cnx:
